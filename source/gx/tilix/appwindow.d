@@ -2119,6 +2119,7 @@ public:
         add(afNotifications);
 
         stTitle = new Stack();
+	stTitle.setHhomogeneous(false);
 
 		lblText = new Label(text);
         lblText.setEllipsize(PangoEllipsizeMode.START);
