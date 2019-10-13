@@ -2123,7 +2123,7 @@ public:
 
 		lblText = new Label(text);
         lblText.setEllipsize(PangoEllipsizeMode.START);
-		lblText.setWidthChars(10);
+		lblText.setWidthChars(6);
         updatePositionType(position);
 
 
